@@ -14,7 +14,7 @@ export default async function About() {
     }
     )
     console.log("What is res, it is " + typeof(res));
-    console.log(res.text);
+    // console.log(res.text);
     return res.json()
 
 }

@@ -1,0 +1,39 @@
+/* components/FooterNavigation.module.css */
+.footerNav {
+    text-align: center;
+}
+
+.footerNav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerNav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.footerNav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Add responsive styles for different screen sizes */
+@media screen and (max-width: 768px) {
+    .footerNav {
+        margin-top: 20px;
+        /* Add some spacing on smaller screens */
+    }
+
+    .footerNav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footerNav li {
+        margin: 10px;
+    }
+}

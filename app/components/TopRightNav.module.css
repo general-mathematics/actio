@@ -1,0 +1,44 @@
+/* components/TopRightNav.module.css */
+.top-right-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Style the navigation links or buttons */
+.top-right-nav a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.top-right-nav a:hover {
+    color: #555;
+}
+
+/* Example styles for three navigation items */
+.top-right-nav a:nth-child(1) {
+    color: #FF5733;
+    /* Customize the color */
+}
+
+.top-right-nav a:nth-child(2) {
+    color: #33FF57;
+    /* Customize the color */
+}
+
+.top-right-nav a:nth-child(3) {
+    color: #5733FF;
+    /* Customize the color */
+}
+
+/* Add responsive styles for different screen sizes */
+@media screen and (max-width: 768px) {
+    .top-right-nav {
+        display: none;
+        /* Hide on smaller screens */
+    }
+}

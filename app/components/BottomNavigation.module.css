@@ -1,0 +1,30 @@
+/* components/BottomNavigation.module.css */
+.bottom-navigation {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/* Style the navigation links or buttons */
+.bottom-navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* Add responsive styles for different screen sizes */
+@media screen and (max-width: 768px) {
+    .bottom-navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bottom-navigation a {
+        font-size: 14px;
+    }
+}
+
+/* Add additional styles for larger screens if needed */

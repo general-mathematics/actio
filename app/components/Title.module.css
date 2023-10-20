@@ -1,0 +1,26 @@
+/* components/Title.module.css */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+}
+
+/* Add responsive styles for different screen sizes */
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .title {
+        font-size: 24px;
+    }
+}
